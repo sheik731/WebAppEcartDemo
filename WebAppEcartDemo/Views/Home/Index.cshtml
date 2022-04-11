@@ -1,0 +1,131 @@
+﻿
+@{ ViewBag.Title = "Index"; }
+
+<br />
+
+<div id="themeSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#themeSlider" data-slide-to="1"></li>
+        <li data-target="#themeSlider" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img style="height: 500px ; width:100%" src="~/Images/gulab2.jpg" />
+            <div class="carousel-caption">
+                <h3><b>30 Years of Sweet Love &#x2665;</b></h3>
+                <p>“Dessert is like a feel - good song and the best ones make you dance.” <br>- Edward Lee.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img style="height: 500px ; width:100%" src="~/Images/chips2.jpeg" />
+            <div class="carousel-caption">
+                <h3>celebrate Your Happiness With Us !</h3>
+                <p>Celebrate All Festivals With Our Sweets</p>
+            </div>
+        </div>
+        <div class="item">
+            <img style="height: 500px ; width:100%" src="~/Images/ba1.jpg" />
+            <div class="carousel-caption">
+                <h3><b>Welcome To E-Sweets</b></h3>
+                <p>Now Stepped into E-Platforms !</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <span class="fa fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#themeSlider" data-slide="next">
+        <span class="fa fa-chevron-right"></span>
+    </a>
+</div>
+<br />
+<br />
+<br />
+<br />
+
+<div class="row">
+    <div class="col5">
+        <h2><br><b>Welcome to Mouthwatering &  <br>Tongue tingling sweets <br></h2>
+        <p>
+            <br>In India, be it a child birth/ marriage/ any festival sweet take up an integral part in the celebration,  as the Sweets & Savoury adds a special touch for any occasion.
+            We are trying to make every occasion a memorable one for all our customers with the top class sweets and savouries made by us with love and care.
+            We have been preparing sweets from generation to generations in the traditional method, giving cleanliness the top preference. We work with the passion in the heart to create
+            an authentic and inimitable tasting sweet for our customers. So the next time you get the urge to eat, make sure it is from us.
+        </p>
+    </div>
+    <div class="col5">
+        <img src="~/images/indian-sweets-2625911_1920.jpg" width="525">
+    </div>
+</div>
+
+<div class="categories">
+    <div class="small-container">
+        <h2><b>Best Seller categories &#x2713;<br><br><br></b></h2>
+        <div class="row">
+            <div class="col3">
+                <img src="~/images/gulab2.jpg" width="200">
+                <br />
+                <br />
+                <div style="text-align:center">
+                    <h4>Sweets  &#x27A2;</h4>
+                    @Html.ActionLink("Shopping", "Index", "Shopping")
+                </div>
+            </div>
+            <div class="col3">
+                <img src="~/images/murukku.jpg" width="200">
+                <br />
+                <br />
+                <div style="text-align:center">
+                    <h4>Soveries  &#x27A2;</h4>
+                    @Html.ActionLink("Shopping", "Index", "Shopping")
+                </div>
+            </div>
+            <div class="col3">
+                <img src="~/images/chips.jpg" width="200">
+                <br />
+                <br />
+                <div style="text-align:center">
+                    <h4>Crunchies  &#x27A2;</h4>
+                    @Html.ActionLink("Shopping", "Index", "Shopping")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col2">
+                <img src="~/Images/fest2.png" class="offering">
+            </div>
+            <div class="col2">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p>Exclusive Festival Time Offer,Only On E-SWEETS</p>
+                <h1>Festive Sweet box combo</h1>
+                <small>
+                    This will be a exclusive festival time offer only available on E-SWEETS.
+                    You can get a combo Festive Sweet box of count 6 at Rs.1000 only.
+                    It includes all types of milk sweets and Childern favos also.
+                    <br>
+                </small>
+                <br />
+                @Html.ActionLink("Shopping", "Index", "Shopping")
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
